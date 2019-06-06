@@ -12,6 +12,7 @@
 		4788290F22A8B7B900DF6122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4788290D22A8B7B900DF6122 /* Main.storyboard */; };
 		4788291122A8B7BB00DF6122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4788291022A8B7BB00DF6122 /* Assets.xcassets */; };
 		4788291422A8B7BB00DF6122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4788291222A8B7BB00DF6122 /* LaunchScreen.storyboard */; };
+		4788291C22A8C1A400DF6122 /* 42-Rain-10min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4788291B22A8C1A400DF6122 /* 42-Rain-10min.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4788291022A8B7BB00DF6122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4788291322A8B7BB00DF6122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4788291522A8B7BB00DF6122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4788291B22A8C1A400DF6122 /* 42-Rain-10min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "42-Rain-10min.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4788290822A8B7B900DF6122 /* NickNap */ = {
 			isa = PBXGroup;
 			children = (
+				4788291B22A8C1A400DF6122 /* 42-Rain-10min.mp3 */,
 				4788290922A8B7B900DF6122 /* AppDelegate.swift */,
 				4788290B22A8B7B900DF6122 /* ViewController.swift */,
 				4788290D22A8B7B900DF6122 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				4788291422A8B7BB00DF6122 /* LaunchScreen.storyboard in Resources */,
 				4788291122A8B7BB00DF6122 /* Assets.xcassets in Resources */,
+				4788291C22A8C1A400DF6122 /* 42-Rain-10min.mp3 in Resources */,
 				4788290F22A8B7B900DF6122 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34LQHD59JY;
 				INFOPLIST_FILE = NickNap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34LQHD59JY;
 				INFOPLIST_FILE = NickNap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
