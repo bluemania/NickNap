@@ -114,7 +114,7 @@ class ViewController: UIViewController {
     func manage_states(msg: String){
         if STATE == 0 { // Ready
             if msg == "m25" {
-                seconds = 25 // * 60
+                seconds = 25 * 60
             } else if msg == "m95" {
                 seconds = 95 * 60
             }
